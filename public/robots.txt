@@ -1,0 +1,36 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /how-it-works
+Allow: /calculator
+Allow: /faqs
+Allow: /contact
+Allow: /environmental-impact
+Allow: /terms-conditions
+Allow: /privacy-policy
+
+# Disallow private and authentication paths
+Disallow: /auth/
+Disallow: /auth
+Disallow: /dashboard/
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /admin/
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/
+Disallow: /api/*
+Disallow: /user/
+Disallow: /account/
+Disallow: /profile/
+Disallow: /investments/
+Disallow: /investments
+Disallow: /cycles/
+Disallow: /cycles
+Disallow: /manage-funds/
+Disallow: /manage-funds
+Disallow: /user-calculator/
+Disallow: /user-calculator
+
+Sitemap: https://plasticpay.netlify.app/sitemap.xml
